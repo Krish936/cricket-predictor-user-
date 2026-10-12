@@ -5,9 +5,9 @@ import api from '../api/axios';
 import { useAuth } from '../context/AuthContext';
 
 const PLANS = [
-  { id: 'monthly', name: 'Monthly Premium', price: 199, days: 30 },
-  { id: 'season', name: 'Season Pass', price: 499, days: 120 },
-  { id: 'finals', name: 'Finals Package', price: 99, days: 15 },
+  { id: '2', name: 'Valid for 2 Matches Only', price: 199, Matches: 2 },
+  { id: '7', name: 'Package of 7 Matches', price: 699, Matches: 7 },
+  { id: '1', name: 'Valid for 1 Match Only', price: 99, Matches: 1 },
 ];
 
 export default function Premium() {
